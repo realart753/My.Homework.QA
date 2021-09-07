@@ -1,1 +1,11 @@
-
+a = int(input('Введите первое значение: '))
+b = int(input('Введите второе значение: '))
+c = int(input('Введите третье значение: '))
+def comparison(a,b,c):
+    while a <= b:
+        a = a + c
+        if a < b:
+            print('A<B', a, 'меньше', b)
+    else:
+        print('Ну наконец-то, Свершилось...:', a, 'больше', b)
+comparison(a,b,c)
