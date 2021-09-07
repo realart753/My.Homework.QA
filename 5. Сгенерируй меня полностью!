@@ -1,0 +1,11 @@
+import random
+c=11
+nums = list(range(c))
+random.shuffle(nums)
+print('Список:',nums)
+a = int(input('Какое число найти?'))
+def find(a):
+    for i in nums:
+        if i == a:
+            print('число',i,'находжится в списке под номером',nums.index(i)+1)
+find(a)
