@@ -1,0 +1,10 @@
+def calculator():
+    a = int(input ('Введите число #1:'))
+    b = int(input ('Введите число #2:'))
+    print ('#1 + #2 =', a + b)
+    print ('#1 - #2 =', a - b)
+    print ('#2 - #1 =', b - a)
+    print ('#1 * #2 =', a * b)
+    print ('#1 / #2 =', a / b)
+    print ('#2 / #1 =', b / a)
+print (calculator())
